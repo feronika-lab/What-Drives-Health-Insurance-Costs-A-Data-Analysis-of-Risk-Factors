@@ -133,7 +133,7 @@ Model ini banyak digunakan dalam kompetisi data science karena kemampuannya dala
 
 Untuk meningkatkan performa model, dilakukan proses **hyperparameter tuning** menggunakan metode:
 
-- **GridSearchCV**
+- GridSearchCV
 - Cross-validation
 
 Proses ini bertujuan untuk menemukan kombinasi parameter terbaik bagi setiap model.
@@ -180,10 +180,10 @@ Model terbaik kemudian digunakan untuk melakukan estimasi biaya asuransi bagi in
 Contoh penggunaan model:
 
 Input:
-Age = 19
-BMI = 27.9
-Children = 0
-Smoker = Yes
+- Age = 19
+- BMI = 27.9
+- Children = 0
+- Smoker = Yes
 
 Output:
 Estimasi biaya asuransi kesehatan
